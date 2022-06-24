@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
   const [data, setData] = React.useState();
-  const url = "https://git.heroku.com/young-inlet-68831.git";
+  const url = "https://young-inlet-68831.herokuapp.com/";
 
   const GetData = () => {
     axios.get(url).then((res) => {
